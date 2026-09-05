@@ -6,6 +6,12 @@
 
 A unified deep learning framework for simultaneous **Brain Tumor Classification** and **Tumor Segmentation** using a multi-task learning architecture based on **EfficientNetV2-S** and a **U-Net++ style decoder**, enhanced with **Grad-CAM Explainable AI (XAI)**.
 
+> 🚀 **Key Highlights**:
+> * **Multi-Task Synergy**: Simultaneous 3-class classification and binary tumor segmentation in a single network.
+> * **State-of-the-Art Results**: **99.35% classification accuracy** and **0.8089 mean Dice score** on 460 test images.
+> * **Clinically Grounded**: Grad-CAM visual explanations verify that classification attention directly targets tumor regions.
+
+
 ---
 
 ## 📌 Project Overview
@@ -105,6 +111,7 @@ To ensure clinical trustworthiness, the network incorporates **Gradient-weighted
 ```text
 .
 ├── .gitignore                      # Excludes weights, .mat files, and cache
+├── LICENSE                         # MIT License
 ├── README.md                       # Comprehensive documentation
 ├── requirements.txt                # Python package dependencies
 └── brain-tumor-c-s-final.ipynb     # Complete training and evaluation notebook
