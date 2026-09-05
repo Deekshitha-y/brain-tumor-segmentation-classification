@@ -114,8 +114,8 @@ To ensure clinical trustworthiness, the network incorporates **Gradient-weighted
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/<YOUR_USERNAME>/<YOUR_REPO_NAME>.git
-cd <YOUR_REPO_NAME>
+git clone https://github.com/Deekshitha-y/brain-tumor-segmentation-classification.git
+cd brain-tumor-segmentation-classification
 ```
 
 ### 2. Create Virtual Environment & Install Dependencies
@@ -158,3 +158,10 @@ If you use the dataset, please cite the original author:
   publisher={Public Library of Science}
 }
 ```
+
+---
+
+## 👩‍💻 Author
+
+* **Deekshitha Yasarapu** - [@Deekshitha-y](https://github.com/Deekshitha-y)
+
