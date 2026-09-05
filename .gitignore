@@ -1,0 +1,45 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Checkpoints and Trained Model Weights
+*.pth
+*.pt
+*.pwf
+*.h5
+*.ckpt
+best_multitask_model.pth
+
+# Dataset files (large data should not be tracked)
+*.mat
+*.zip
+*.tar.gz
+temp_extract/
+brain_tumor_data/
+*.csv
+
+# Jupyter Notebook checkpoints & autosaves
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Generated figures & outputs
+*.png
+*.jpg
+*.jpeg
+multitask_samples.png
+augmented_batch_sample.png
+training_curves.png
+confusion_matrix.png
+roc_curves.png
+segmentation_qualitative.png
+xai_gradcam.png
+
+# Environments & OS specific
+.env
+.venv
+env/
+venv/
+ENV/
+.DS_Store
+Thumbs.db
