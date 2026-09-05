@@ -58,10 +58,10 @@ The custom `MultiTaskUNetPlusPlus` model features:
 ```
 
 * **Backbone**: ImageNet-pretrained `tf_efficientnetv2_s` via `timm`.
-* **Joint Loss**:
+* **Joint Loss Function**:
   $$\mathcal{L}_{\text{total}} = 1.0 \times \mathcal{L}_{\text{seg}} + 1.0 \times \mathcal{L}_{\text{cls}}$$
-  * $\mathcal{L}_{\text{seg}} = 0.5 \times \text{DiceLoss} + 0.5 \times \text{BCEWithLogitsLoss}$
-  * $\mathcal{L}_{\text{cls}} = \text{CrossEntropyLoss}(\text{label\_smoothing}=0.05)$
+  * $\mathcal{L}_{\text{seg}} = 0.5 \times \mathcal{L}_{\text{Dice}} + 0.5 \times \mathcal{L}_{\text{BCE}}$
+  * $\mathcal{L}_{\text{cls}} = \text{CrossEntropyLoss (label smoothing = 0.05)}$
 
 ---
 
